@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        .header {
+            border-bottom: 2px solid gray;
+        }
+        .card {
+            background-color: rgb(158, 160, 240);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .color {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- header - дает понимание роботам что тут заголовок
+          nav - для панели навигации  -->
+    <header id="header" class="header">
+        <h1>Site</h1>
+    </header>
+
+    <nav id="navigation"> <!-- id должен быть уникальным во всем документе -->
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </nav>
+
+    <hr>
+<!-- atricle - для повторяющихся тегов
+    section  - их можно сгруппировать в section/ секции-->
+    <section>
+        <article id="block1" class="card">
+            <h3>Block 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis dolorem <span class="color">iste repellat earum voluptatibus pariatur eligendi aspernatur. Eius possimus aspernatur facilis officia,</span> nesciunt accusamus quisquam consequuntur ex nisi aut.</p>
+        </article>
+
+        <article id="block2" class="card">
+            <h3>Block 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis dolorem iste repellat earum voluptatibus pariatur eligendi aspernatur. Eius possimus aspernatur facilis officia, nesciunt accusamus quisquam consequuntur ex nisi aut.</p>
+        </article>
+    </section>
+
+    <!-- <aside></aside> - тег для боковых меню -->
+
+    <hr>
+        <!--сокращения эммет
+            div# - это див с айдишником
+            div#app - див с айдишником и его названием
+            div. - див с классом
+            footer ничем от div не отличается, чисто для симантики, что бы роботам было понятнее что за часть сайта в этой секции-->
+    <footer id="footer">
+        <h4>Contact Me</h4>
+        <ul>
+            <li>telegram</li>
+            <li>instagram</li>
+            <li>vk</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
