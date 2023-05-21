@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /*font-family: Verdana;*/
+    /* font-family: 'Roboto', Verdana, sans-serif; */
+    /* font-size: 14px; */
+    line-height: 20px; /*Высота линии*/
+    font: normal 14px 'Roboto', Verdana, sans-serif;
+    /* font-weight: normal; /*посути заменяет функционал  тега <strong> */
+    /*text-decoration: underline; /*декорация текста, например подчеркивание*/
+    /*font-style: italic;*/
+    /*letter-spacing: 2px;*/
+    /*word-spacing: 20px;*/
+}   

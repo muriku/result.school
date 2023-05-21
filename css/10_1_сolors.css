@@ -1,0 +1,41 @@
+body {
+    background: #f1f1f1;
+    color: #0f141e
+}
+
+.color-1 {
+    color: red;
+}
+
+/* RedGreenBlue */
+/* 00-ff */
+.color-2 {
+    color: #4B0082;
+}
+
+.color-3 {
+    color: #ddd;
+}
+
+/* 0-255 */
+.color-4 {
+    color: rgb(0,255,0);
+    /*opacity: 0.2;*/ 
+}
+
+/* 4й элемент это опасити (прозрачность) */
+.color-5 {
+    color: rgba(150, 100, 0, 0.438);
+}
+.span-1 {
+    color: #4B0082;
+}
+.span-2 {
+    color: #2906c5;
+}
+.span-3 {
+    color: #150;
+}
+.span-4 {
+    color: rgb(255, 0, 242);
+}

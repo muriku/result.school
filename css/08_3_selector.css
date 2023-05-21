@@ -1,0 +1,42 @@
+/* Последний тип силектора * через него идет обращение ко всем элементам */
+* {
+
+}
+/* Первый тип селекторов Tag Name */
+/*body {
+    background: #eee;
+}*/
+/* Второй тип селектора Class . */
+.card {
+    padding: 10px; /*отступ*/
+    background: #fff;
+    /*margin-bottom: 10px; /*отступ снизу*/
+}
+/* обращение к дочернему селектору через пробел */
+.card p {
+    font-size: 14px;
+}
+
+/* ID */
+#header {
+    background: #ddd;
+    padding: 10px;
+}
+/* Третий тип селектора #. Можно бесконечное колличетсво селекторов перечислять через запятую */
+#header, .card {
+    margin-bottom: 10px;
+}
+
+.line {
+    border-color: rgb(157, 255, 0);
+}
+
+.html {
+    background: #e55f28;
+    color: white;
+}
+
+.css {
+    background: #014f50;
+    color: white;
+}
