@@ -12,88 +12,119 @@
     <link rel="stylesheet" href="css/main.css">
     <title>ilgam Resume</title>
 </head>
-<body>
-    <!-- Аватар -->
-    <h1>Мамедов Ильгам</h1>
-    <h2>Резюме</h2>
-    <img src="img/avatar.jpg"alt="no avatar image here" width="150">
-    <!-- Обо мне -->
-    <p>Я по профессии <strong><em>системный администратор</em></strong> хочу освоить<strong><em> веб программирование.</em></strong></p>
-    <p>Прохожу обучение на сайте<strong><em>resolt.school</em></strong></p>
-    <p>В мои увлечения входят: <strong> <em>семья и программирование!</em></strong></p>
-    <hr>
-    <!-- Хобби -->
-    <h2>Хобби</h2>
-    <ul>
-        <li>Семья</li>
-        <li>Путешествия</li>
-        <li>Программирование</li>
-        <li>Тренажерный зал</li>
-    </ul>
-    <hr>
-    <!-- Описание рабочих мест -->
-    <h2>История работы</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Название работы</th>
-                <th>Должность</th>
-                <th>Период работы</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Метрика</td>
-                <td>системный администратор</td>
-                <td>2009-2012</td>
-            </tr>
-            <tr>
-                <td>Комитет по молодежной политике (КПМП)</td>
-                <td>системный администратор</td>
-                <td>20012-2013</td>
-            </tr>
-            <tr>
-                <td>Балтика мебель</td>
-                <td>системный администратор</td>
-                <td>2013-2015</td>
-            </tr>
-            <tr>
-                <td>Гимназия №49</td>
-                <td>системный администратор</td>
-                <td>2015-2023</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>Связаться со мной</h2>
-    <form>
-
-        <div>
-            <label for="name">Имя:</label>
-            <input type="text" placeholder="Ваше Имя" id="name">        
+<body>    
+    <div class="container">
+        <div class="name">
+            <h1>Мамедов Ильгам</h1>        
         </div>
 
-        <div>
-            <label for="email">Почта:</label>
-            <input type="email" placeholder="Ваша@почта" id="email">        
+        <div class="block">
+
+            <!-- Аватар -->   
+            <div class="inline">
+                <img src="img/avatar.jpg"alt="no avatar image here" class="avatar">
+            </div>
+
+            <!-- Обо мне -->
+            <div class="about">
+                <p>Я по профессии системный администратор, осваиваю веб программирование.</p>
+                <p>Прохожу обучение на сайте resolt.school</p>             
+            </div>
+
+        </div>    
+        
+        <hr>
+        
+        <!-- Хобби -->
+        <div class="hobby">        
+            <h2>Хобби</h2>
+            <ul>
+                <li>Семья</li>
+                <li>Путешествия</li>
+                <li>Программирование</li>
+                <li>Тренажерный зал</li>
+            </ul>                  
         </div>
 
-        <div>
-            <label for="message">Сообщение:</label><br>
-            <textarea type="message" id="message" cols="50" rows="5" placeholder="Напишите здесь Ваше сообщение, хотя не пишите. логика формы еще не готова."></textarea>        
+        <hr>
+
+        <!-- Описание рабочих мест -->
+        <div class="work">
+            <h2>История работы</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Название работы</th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Метрика</td>
+                        <td>системный администратор</td>
+                        <td>2009-2012</td>
+                    </tr>
+                    <tr>
+                        <td>Комитет по молодежной политике (КПМП)</td>
+                        <td>системный администратор</td>
+                        <td>20012-2013</td>
+                    </tr>
+                    <tr>
+                        <td>Балтика мебель</td>
+                        <td>системный администратор</td>
+                        <td>2013-2015</td>
+                    </tr>
+                    <tr>
+                        <td>Гимназия №49</td>
+                        <td>системный администратор</td>
+                        <td>2015-2023</td>
+                    </tr>
+                </tbody>
+            </table>        
         </div>
 
-        <button type="submit">Отправить</button>
-        <button type="reset">Учистить форму</button>
+        <hr>
 
-    </form>
-    <!-- Соц сети -->
-    <h4>Социальные сети:</h4>
-    <a href="https://vk.com/ilgam" target="_blank"><img src="img/vk_icon.png" width="50" alt="vk icon"></a>
-    <a href="https://t.me/muriku" target="_blank"><img src="img/telegram_icon.png" width="50" alt="telegram icon"></a>
-    
-    <!-- что бы выгрузить страницу на гидхаб как веб сайт.
-    нужно после пуша зайти на гидхабе в раздел settings, Pages, 
-    в поле sourse выбираем github actions бранч с main-->
+            <!-- Связаться со мной -->
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form>
+
+                <div>
+                    <label for="name">Имя:</label>
+                    <input type="text" placeholder="Ваше Имя" id="name">        
+                </div>
+
+                <div>
+                    <label for="email">Почта:</label>
+                    <input type="email" placeholder="Ваша@почта" id="email">        
+                </div>
+
+                <div>
+                    <label for="message">Сообщение:</label><br>
+                    <textarea type="message" id="message" cols="50" rows="5" placeholder="Напишите здесь Ваше сообщение, хотя не пишите. логика формы еще не готова."></textarea>        
+                </div>
+
+                <button type="submit" class="btn">Отправить</button>
+                <button type="reset" class="btn">Учистить форму</button>
+
+            </form>
+        </div>
+
+        <hr>
+
+        <!-- Соц сети -->
+        <footer class="social">
+            <h4>Социальные сети:</h4>
+            <a href="https://vk.com/ilgam" target="_blank"><img src="img/vk_icon.png" width="50" alt="vk icon"></a>
+            <a href="https://t.me/muriku" target="_blank"><img src="img/telegram_icon.png" width="50" alt="telegram icon"></a>
+            <a href="#">для теста стилей</a>
+        </footer>
+        
+        <!-- что бы выгрузить страницу на гидхаб как веб сайт.
+        нужно после пуша зайти на гидхабе в раздел settings, Pages, 
+        в поле sourse выбираем github actions бранч с main-->
+    </div>
 </body>
 </html>

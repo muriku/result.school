@@ -1,0 +1,26 @@
+.lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lists li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    /*выравнивание текста по центру*/
+    text-align: center;
+    /*отступы для числе в таблице*/
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background-color: green;
+    
+}

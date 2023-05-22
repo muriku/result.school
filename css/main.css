@@ -1,12 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background: aqua;
+    background: rgb(167, 188, 212);
     font-size: 16px;
     font-family: Roboto, Verdana;
     font-weight: 400;
+    
 }
 
 p {
     font-size: 15px;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: yellow;
+    cursor: pointer;    
+}
+
+a:visited {
+    color: purple;
+    cursor: pointer;
+}
+
+a:active {
+    color: green;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #076455;
+    padding: 15px 20px;
+    color: #f5dc01;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    /*у кнопок по умолчанию свой шрифт, inherit унаследует шрифт по умолчанию в файле*/
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 800px;
+    margin:auto;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block  {
+    display:flex;
+    justify-content: space-between;
+}
+
+.inline {
+    padding: 10px;
+    background-color: rgb(133, 170, 212);
+    display: inline-block;
+
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    margin-right: 5px;
+
+}
+.avatar {
+    border: 5px solid;    
+    border-color:rgb(94, 81, 209);
+    border-radius: 28px;
+    width: 150px;
+    /*создает тени под аватаркой*/
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .75);
+    
+}
+
+.about {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(133, 170, 212);
+}
+
+.hobby {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    padding-left: 5px;
+    background-color: rgb(133, 170, 212);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.work {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    padding-left: 5px;
+    background-color: rgb(133, 170, 212);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(133, 170, 212);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.social {
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:#8881c5;
+    padding-left: 5px;
+    background-color: rgb(133, 170, 212);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
