@@ -10,7 +10,7 @@
 .card {
     padding: 10px; /*отступ*/
     background: #fff;
-    margin-bottom: 10px; /*отступ снизу*/
+    /*margin-bottom: 10px; /*отступ снизу*/
 }
 /* обращение к дочернему селектору через пробел */
 .card p {
