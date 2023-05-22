@@ -14,6 +14,7 @@
     background-color: aqua;
     border-radius: 50%;
 }
+<<<<<<< HEAD
 /*bottom, top, right, left */
 .border-2 {
     border-bottom: 2px solid green;
@@ -28,5 +29,5 @@
     background: lightsalmon;
     padding-left: 10px;
     color: #fff
-    
+  
 }
