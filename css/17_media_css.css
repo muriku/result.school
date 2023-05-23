@@ -12,11 +12,18 @@
 
 /* условия если максимальная ширина экрана <500px */
 @media (max-width: 500px) {
-    .box {
-        
+    .box {   
     font-size: 1.5rem;
     padding: 10px;
     text-align: center;
     
     }
+}
+@media (max-width: 500px) {
+    body {
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-01/1641093872_1-abrakadabra-fun-p-nezhno-rozovoe-nebo-2.jpg");
+
+    background-image: ;
+    }
+    
 }
