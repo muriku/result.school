@@ -1,0 +1,36 @@
+a {
+    color: #333;
+    /*курсор мышки меняется на ручку*/
+    text-decoration: none;
+    /*анимация для кнопки*/
+    /* transition: all .2s; */
+}
+
+/*: - это псевдоселектор отвечающий за эфект наведение мышки*/
+a:hover {
+    color: orange;
+    /* font-size: 2rem; */
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color:blue;
+}
+
+.btn {
+    background-color: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /*у кнопок по умолчанию свой шрифт, inherit унаследует шрифт по умолчанию в файле*/
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+}
