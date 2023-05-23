@@ -1,0 +1,66 @@
+.lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lists li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    /*выравнивание текста по центру*/
+    text-align: center;
+    /*отступы для числе в таблице*/
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background-color: green;
+    
+<<<<<<< HEAD
+}
+
+/*выделяет четные строчки. работает с повторящимися элементами*/
+/* .table tr:nth-child(even) {
+    background: #eee;
+} */
+
+/*выделяет не четные строчки. работает с повторящимися элементами*/
+.table tr:nth-child(odd) {
+    background: #eee;
+}
+
+.navbar {
+    background-color: lightcoral;
+    /*padding: 10px 20px;*/
+    margin-bottom: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;   
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    background-color: #ea6767;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+=======
+>>>>>>> 3aa5ab3114dd5e7187943be03910647ffda44c00
+}
