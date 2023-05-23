@@ -52,6 +52,14 @@ a:active {
     margin:auto;
 }
 
+@media (max-width: 650px) {
+    .container {
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+}
+
 .name {
     display: flex;
     justify-content: center;
@@ -137,4 +145,53 @@ a:active {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table thead th {
+    padding-bottom: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background: #a5acec;
+}
+
+tbody tr:last-child(even) {
+    padding-left: 20px;
+}
+
+.lists {
+    list-style: none;
+}
+.lists li {
+    margin-bottom: 10px;
+}
+
+.block_contact {
+    display: block;
+    margin: 5px 1px 5px;
+}
+
+.label_name {
+    display: inline;
+    margin-right: 12px;
+}
+
+.block_contact input,
+textarea {
+    border: none;
+    background: transparent;
+    box-sizing: border-box;   
+    border-bottom: 1px solid #17282e; 
+    color: black;
+    outline: none;
+    font-family: inherit;
+
 }

@@ -23,7 +23,6 @@
 .table td:hover {
     background-color: green;
     
-<<<<<<< HEAD
 }
 
 /*выделяет четные строчки. работает с повторящимися элементами*/
@@ -61,6 +60,4 @@
 
 .navbar ul li:last-child {
     margin-right: 0;
-=======
->>>>>>> 3aa5ab3114dd5e7187943be03910647ffda44c00
 }
